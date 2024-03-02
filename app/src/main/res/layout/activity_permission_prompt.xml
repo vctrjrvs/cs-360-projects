@@ -1,0 +1,32 @@
+<!-- activity_permission_prompt.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    >
+
+    <Button
+        android:id="@+id/buttonRequestPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/requesting_sms_permission" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accept"/>
+    <Button
+        android:id="@+id/deny"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deny"/>
+
+    <!-- Additional UI elements to display information based on permission status -->
+
+</RelativeLayout>
